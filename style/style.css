@@ -524,7 +524,7 @@ body {
 }
 
 /* --- media --- */
-@media (min-width: 1250px) {
+@media (min-width: 1500px) {
     .hero-section {
         flex-direction: row;
         align-items: center;
