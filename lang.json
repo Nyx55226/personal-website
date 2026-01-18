@@ -1,0 +1,115 @@
+{
+    "it":{
+        "title":{
+            "title_home":"Emanuele Ferrara | sviluppatore",
+            "title_contact":"Emanuele Ferrara | contatti",
+            "title_project":"Emanuele Ferrara | Progetti"
+        },
+        "contact":"Contatti",
+        "contactsubtitle": "Aperto a collaborazioni, progetti e confronti tecnici.",
+        "sendemail":"Hai un'idea o una proposta? Inviami un'email.",
+        "project":"Progetti",
+        "project_2":"I Mie Progetti",
+        "about-me":{
+            "h2":"Ciao, sono Emanuele Ferrara",
+            "p1":"Mi chiamo Emanuele Ferrara e sono uno studente di Informatica con una forte passione per la programmazione e per lo sviluppo di videogiochi.",
+            "p2":"Fin da giovane mi interesso all’informatica non solo come disciplina teorica, ma come strumento per progettare sistemi complessi, efficienti e orientati alle prestazioni. I videogiochi rappresentano per me un punto di incontro tra software engineering, logica, design e tecnologia, ed è in questo ambito che concentro gran parte del mio studio e della mia pratica.",
+            "p3":"Affronto l’apprendimento con un approccio basato sulla dedizione costante, sull’approfondimento tecnico e sulla sperimentazione continua. Il mio percorso è orientato alla crescita a lungo termine come sviluppatore, con l’obiettivo di lavorare su progetti ad alto livello tecnico e di contribuire in modo concreto all’evoluzione del software."
+        },
+        "skills":"Stack Tecnologico",
+        "descProject":"Questa sezione raccoglie i miei progetti, suddivisi per linguaggio di programmazione. Per ogni lavoro sono disponibili immagini rappresentativi, una breve descrizione e il link al repository GitHub.",
+        "projectJobs":{
+            "MagicalR":"Questo progetto è una demo del gioco Magic Research, sviluppata interamente in Java, con finalità didattiche, con l’obiettivo di studiare e ricreare le meccaniche e la struttura delle prime ore di gioco dell’opera originale.\n\nNota legale: si tratta di un progetto amatoriale a scopo didattico. Tutti i diritti relativi al concept, al gameplay e all’idea originale appartengono agli sviluppatori di Magic Research.",
+            "tris":"Progetto sviluppato interamente in Java, che implementa il classico gioco del Tris (tic-tac-toe) con interfaccia grafica. Il programma permette a due giocatori di sfidarsi in una partita, mostrando una griglia 3x3 interattiva e aggiornata in tempo reale dopo ogni mossa.",
+            "forza4":"Progetto sviluppato interamente in Java, che implementa il classico gioco del Forza 4 con interfaccia grafica. Il programma consente a due giocatori di sfidarsi alternando le mosse su una griglia verticale, aggiornata in tempo reale, con gestione automatica dei turni e rilevamento delle condizioni di vittoria.",
+            "radice":"Progetto web realizzato come calendario dell’avvento digitale. Il sito permette di scoprire ogni giorno nuove creazioni natalizie, offrendo un’esperienza dinamica e coinvolgente. L’architettura si basa su PHP e MySQL, con gestione completa degli account utente, autenticazione tramite login istituzionale, recupero password sicuro, generazione e verifica di codici OTP, e controllo dell’accesso ai contenuti giornalieri. Inoltre, il sito integra un sistema di like per interagire con le creazioni, visualizzare i preferiti e monitorare la popolarità dei contributi. L’interfaccia è progettata per essere intuitiva e responsiva, con un calendario digitale che sblocca i contenuti giorno per giorno, garantendo sia sicurezza che engagement degli utenti.",
+            "battaglia":"Progetto sviluppato interamente in C++, che implementa il classico gioco della Battaglia Navale. Il programma permette all’utente di sfidare la CPU, che posiziona casualmente navi di lunghezza diversa su una griglia 10x10. L’obiettivo è indovinare le posizioni delle navi nel minor numero di tentativi possibile. Il gioco gestisce in tempo reale i colpi, segnala acqua e navi colpite, aggiorna il contatore delle navi rimanenti e impedisce l’inserimento di coordinate già utilizzate, offrendo un’esperienza di gioco completa in console.",
+            "study_swap":"StudySwap è una piattaforma pensata per favorire la collaborazione tra studenti, permettendo lo scambio di appunti, libri e ripetizioni tramite una moneta interna dell’app, basata sulla condivisione e sulla reputazione. Il progetto è stato sviluppato in collaborazione con altri due ragazzi.",
+            "portafolio":"Sito web personale realizzato interamente da zero usando HTML, CSS, JavaScript e JSON per la gestione multilingua. Ho progettato il layout, implementato animazioni e interattività, e ottimizzato il design responsive, dimostrando completo controllo su funzionalità e aspetto grafico."
+        },
+        "buttonRepository":"Repository del Progetto",
+        "LanguageUsed":"Linguaggio: ",
+        "form":{
+            "subject":"Oggetto",
+            "body":"Contenuto",
+            "btn":"Invia"
+        },
+        "char":"Caratteri: ",
+        "error":{
+            "page404":{
+                "title":"Errore 404",
+                "subtitle":"Pagina non trovata",
+                "btn-error":"Torna alla home"
+            },
+            "pageDb500":{
+                "title":"Errore 500",
+                "subtitle":"Impossibile collegarsi al server. Riprova più tardi"
+            }
+            
+        },
+        "errors":{
+            "emptyField": "Campi Vuoti",
+            "textshort": "Testo Troppo Corto",
+            "emailnotvalid":"Email Non Valida",
+            "generalerror":"Qualcosa è andato storto. Riprova più tardi",
+            "successsendemail":"Email Inviata"
+        }
+    },
+    "en":{
+        "title":{
+            "title_home":"Emanuele Ferrara | Developer",
+            "title_contact":"Emanuele Ferrara | Contact me",
+            "title_project":"Emanuele Ferrara | Project"
+        },
+        "contact":"Contact",
+        "contactsubtitle": "Open to collaborations, projects, and tech talks.",
+        "sendemail":"Have an idea or a proposal? Send me an email.",
+        "project":"Project",
+        "project_2":"My Project",
+        "about-me":{
+            "h2":"Hi, I'm Emanuele Ferrara",
+            "p1":"My name is Emanuele Ferrara and i am a Computer Science student with a strong passion for programming and game development.",
+            "p2":"From a young age, I have been interested in computer science not only as a theoretical discipline, but as a tool for designing complex, efficient, and performance-oriented systems. Video games represent for me a meeting point between software engineering, logic, design, and technology, and this is the field on which I focus most of my study and practice.",
+            "p3":"I approach learning with a mindset based on constant dedication, deep technical exploration, and continuous experimentation. My path is oriented toward long-term growth as a developer, with the goal of working on highly technical projects and making a concrete contribution to the evolution of software."
+        },
+        "skills":"Technology Stack",
+        "descProject":"This section showcases my projects, organized by programming language. Each project includes representative images, a brief description, and a link to the corresponding GitHub repository.",
+        "projectJobs":{
+            "MagicalR":"This project is a demo of the game Magic Research, developed entirely in Java for educational purposes, with the goal of studying and recreating the mechanics and structural design of the game’s early hours.\n\nLegal notice: this is an amateur project created for educational purposes. All rights related to the original concept, gameplay, and idea belong to the developers of Magic Research.",
+            "tris":"Project developed entirely in Java, implementing the classic Tic-Tac-Toe game with a graphical interface. The program allows two players to compete in a match, displaying an interactive 3x3 grid that updates in real time after each move.",
+            "forza4":"Project developed entirely in Java, implementing the classic Connect Four game with a graphical user interface. The program allows two players to compete by alternating moves on a vertical grid, updated in real time, with automatic turn management and win condition detection.",
+            "radice":"Web project implemented as a digital advent calendar. The site allows users to discover new Christmas creations every day, providing a dynamic and engaging experience. The architecture is based on PHP and MySQL, with full user account management, authentication via institutional login, secure password recovery, OTP generation and verification, and control over access to daily content. Additionally, the site features a like system to interact with creations, view favorites, and track the popularity of submissions. The interface is designed to be intuitive and responsive, with a digital calendar that unlocks content day by day, ensuring both security and user engagement.",
+            "battaglia":"Project fully developed in C++, implementing the classic Battleship game. The program allows the user to challenge the CPU, which randomly places ships of different lengths on a 10x10 grid. The goal is to guess the ship positions using the fewest possible attempts. The game tracks hits and misses in real time, updates the remaining ships counter, and prevents repeated coordinate entries, providing a complete console-based gameplay experience.",
+            "study_swap":"StudySwap is a platform designed to encourage collaboration among students, enabling the exchange of notes, books, and tutoring through an in-app currency based on sharing and reputation. The project was developed in collaboration with two other developers.",
+            "portafolio":"A fully custom personal portfolio built from scratch using HTML, CSS, JavaScript, and JSON for multi-language support. Designed and optimized entirely by me, showcasing interactive elements, responsive layout, and complete control over functionality."
+        },
+        "buttonRepository":"Project Repository",
+        "LanguageUsed":"Language: ",
+        "form":{
+            "subject":"Subject",
+            "body":"Body",
+            "btn":"Send"
+        },
+        "char":"Characters: ",
+        "error":{
+            "page404":{
+                "title":"Error 404",
+                "subtitle":"Page not Found",
+                "btn-error":"Back to Home"
+            },
+            "pageDb500":{
+                "title":"Error 500",
+                "subtitle":"Unable to connect to the server. Please try again later"
+            }
+            
+            
+        },
+        "errors":{
+            "emptyField": "Empty Fields",
+            "textshort": "Text is too short",
+            "emailnotvalid":"Invalid Email",
+            "generalerror":"Something went wrong. Please try again later",
+            "successsendemail":"Email Sent"
+        }
+    }
+}

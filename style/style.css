@@ -1,0 +1,609 @@
+:root {
+    --bg-industrial: #2c2e31;
+    --accent-copper: #d4a373;
+    --accent-silver: #e0e0e0;
+    --text-silver: #cfd2d6;
+    --text-dim: #9ca3af;
+    --shadow-dark: 10px 10px 30px #25272a;
+    --shadow-light: -10px -10px 30px #333538;
+    --bounce-curve: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-industrial);
+    color: var(--text-silver);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    padding: 0; 
+    margin: 0;
+}
+
+/* --- HERO SECTION --- */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* --- CERCHIO CON EFFETTO SOLLEVAMENTO --- */
+.profile-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #3a3d41, #282a2d);
+    box-shadow: var(--shadow-dark), var(--shadow-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    transition: transform 0.5s var(--bounce-curve), box-shadow 0.5s ease;
+}
+
+.profile-circle img {
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent-copper);
+    box-shadow: 0 0 10px var(--accent-copper);
+    transition: transform 0.5s var(--bounce-curve);
+}
+
+.profile-circle:hover {
+    transform: translateY(-20px);
+    box-shadow: 15px 25px 50px #1e1f21, -10px -10px 30px #333538;
+}
+
+/* --- ABOUT ME --- */
+.about-me {
+    max-width: 100%;
+    text-align: center;
+}
+
+.about-me h2 {
+    font-size: clamp(1.8rem, 8vw, 2.5rem);
+    color: var(--accent-copper);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    white-space: normal; 
+}
+
+.about-me h3 {
+    font-size: 1.1rem;
+    color: var(--accent-silver);
+    font-weight: 300;
+    border-bottom: 2px solid var(--accent-copper);
+    margin-bottom: 25px;
+    display: inline-block;
+}
+
+/* --- SEZIONE LINGUAGGI --- */
+.skills-section {
+    width: 100%;
+    padding: 80px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skills-section h2 {
+    color: var(--accent-copper);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+.tech-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- LOGHI CON EFFETTO SOLLEVAMENTO --- */
+.logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    transition: transform 0.5s var(--bounce-curve);
+}
+
+.logo-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    filter: grayscale(1);
+    opacity: 0.6;
+    margin-bottom: 10px;
+    transition: all 0.4s ease;
+}
+
+.logo-item:hover {
+    transform: translateY(-15px) scale(1.1);
+}
+
+.logo-item:hover img {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.logo-item span {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--accent-copper);
+}
+/* --- Seletore lingua --- */
+.changel {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    height: 28px;
+}
+
+.changel select {
+    height: 100%; 
+    padding-left: 40px; 
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    background-size: 30px 15px;
+    border-radius: 10px;
+    border: 2px solid var(--accent-copper);
+    background-color: var(--bg-object);
+    color: var(--text-silver);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s ease;
+    border-color: var(--accent-copper);
+    box-shadow: 0 0 5px var(--accent-copper);
+}
+.changel option {
+    background-color: #2c2e31;
+    color: var(--text-silver);
+}
+/* --- button Page --- */
+.button{
+    position: absolute;
+    width: 100px;
+    height: 28px;
+    background-color: var(--bg-object);
+    border: 2px solid var(--accent-copper);
+    border-radius: 10px;
+    color: var(--text-silver);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 5px var(--accent-copper);
+}
+
+.top-btn {
+    top: 20px;
+    right: 15px;
+}
+
+.bottom-btn {
+    top: 55px;
+    right: 15px;
+}
+
+/* --- Page Project --- */
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    margin-top: 9vh;         
+    text-align: center;
+}
+.section-title h2 {
+    font-size:2.75rem;
+    color: var(--accent-copper);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.section-title h3 {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: var(--accent-silver);
+    font-weight: 300;
+    border-bottom: 2px solid var(--accent-copper);
+    max-width: 80%;
+    margin-bottom: 25px;
+}
+
+.projects-section {
+  width: 100%;
+  height: 30px;
+}
+
+/* --- RIGA BOTTONI SCROLLABILE --- */
+.btn-projects {               
+  display: flex;       
+  gap: 8px;
+  overflow-x: auto;
+  max-width: 100%;   
+  white-space: nowrap;
+  -ms-overflow-style: none;   
+  scrollbar-width: none;    
+  justify-content: flex-start;
+}
+
+.btn-projects::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-projects button {
+  flex: 0 0 auto;      
+  width: 100px;          
+  height: 30px;
+  background-color: var(--bg-object);
+  border: 2px solid var(--accent-copper);
+  border-radius: 10px;
+  color: var(--text-silver);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px var(--accent-copper);
+}
+
+
+
+/* --- STATO ATTIVO --- */
+.btn-projects button.active {
+  background-color: var(--accent-copper);  
+  color: var(--bg-industrial);            
+  transform: translateY(-1px) scale(1.01); 
+  box-shadow: 0 0 8px var(--accent-copper);
+}
+
+.btn-projects button:first-child {
+  margin-left: 15px;
+  height:30px;
+  width: 50px;
+}
+.active-span{
+    padding-left: 5px;
+}
+.btn-projects button:last-child {
+  margin-right: 15px;
+}
+
+/* --- PROGETTI --- */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;    
+  gap: 25px;                  
+  margin-top: 30px;          
+}
+
+/* --- CARD PROGETTO --- */
+.project {
+  background-color: var(--bg-object);
+  border: 1px solid var(--accent-copper);
+  border-radius: 20px;
+  width: 400px;               
+  min-height: 550px;        
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px var(--accent-copper);
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.project img {
+  width: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.project h4 {
+  color: var(--accent-copper);
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.project h3{
+    margin-top: auto;
+    color: var(--accent-copper);
+}
+
+.project p {
+  color: var(--text-silver);
+  font-size: 0.90rem;
+  text-align:left;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.project button{
+    margin-top: 3px;
+    width: 90%;
+    height: 50px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    color: var(--accent-silver);
+    background-color: var(--bg-object);
+    border: 2px solid var(--accent-copper);
+    cursor: pointer;
+}
+
+.btn-github{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 150px;
+    width: auto;
+}
+.btn-github button{
+    height: 150px;
+    width: 80%;
+    border: 3px solid var(--accent-copper);
+    border-radius: 30px;
+    background-color: var(--bg-object);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    fill: var(--accent-copper);
+}
+.logo-button{
+    height: 80px;
+    margin-right: 10px;
+}
+
+
+.section-form{
+    position: relative;
+    height: 500px;
+    width: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-form h2{
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    color: var(--accent-copper);
+}
+.section-form form{
+    height: 70%;
+    width: 68%;
+    margin-bottom: auto;
+    font-size: 0.85rem;
+}
+.section-form input{
+    display: flex;
+    width: 100%;
+    border-radius: 7px;
+    height: 35px;
+    background-color: var(--bg-object);
+    border-bottom: 3px solid var(--accent-copper);
+    border-right: var(--accent-copper);
+    align-items: center;
+    color: var(--accent-silver);
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+}
+.section-form ::placeholder{
+    color: var(--text-dim);
+    padding-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    
+}
+.section-form textarea{
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 280px;
+    min-height: 280px;
+    border-radius: 7px;
+    background-color: var(--bg-object);
+    border-bottom: 3px solid var(--accent-copper);
+    border-right: var(--accent-copper);
+    color: var(--text-dim);
+    padding-left: 5px;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+}
+.section-form button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 15px;
+    height: 35px;
+    width: 170px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--accent-copper);
+    background-color: var(--bg-object);
+    color: var(--text-silver);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.section-form h4{
+    color: var(--accent-copper);
+    text-align:right;
+}
+.toast{
+    position: fixed;
+    top: 70%; left: 50%;
+    width: auto; height: 30px;
+    border-radius: 10px;
+    border: 2px solid var(--accent-copper);
+    transform: translate(-50%, 50%);
+    transition: all 0.5s ease-in-out;
+    background-color: var(--bg-object);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    opacity: 0;
+}
+
+.error{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+.error h2{
+    margin-bottom: 5px;
+    font-size: 4rem;
+    white-space:nowrap;
+    color: var(--accent-copper);
+}
+.error h3{
+    color: var(--text-silver);
+    border-bottom: 2px solid var(--accent-copper);
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+.error button{
+    background-color: var(--bg-industrial);
+    border-radius: 7px;
+    border: 2px solid var(--accent-copper);
+    color:var(--text-silver);
+    margin-top: 40px;
+    width: 140px;
+    height: 50px;
+    padding: 0px 5px 0px 5px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.error button:hover{
+    background-color: var(--accent-copper);
+    color: var(--bg-industrial);
+}
+
+/* --- media --- */
+@media (min-width: 871px) {
+    .hero-section {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        justify-content: flex-start;
+        padding: 100px 200px;
+        gap: 80px;
+    }
+
+    .profile-circle {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about-me {
+        text-align: left;
+    }
+
+    .about-me h2 {
+        white-space: nowrap;
+        font-size: 3.5rem;
+    }
+
+    .tech-logos {
+        gap: 50px;
+    }
+
+    .logo-item {
+        width: 125px;
+    }
+
+    .logo-item img {
+        width: 100px;
+        height: 100px;
+    }
+    .changel {
+        left: auto;
+        right: 250px;
+    }
+    .changel select:hover {
+        transform: translateY(-5px) scale(1.1);
+        background-color: #44464a;
+    }
+    .top-btn {
+        top: 20px;
+        right: 30px;
+    }
+
+    .bottom-btn {
+        top: 20px;
+        right: 140px;
+    }
+
+    .button:hover {
+        transform: translateY(-5px) scale(1.1);
+        background-color: #44464a;
+    }
+    .btn-projects button:first-child {
+        margin-left: 0; 
+    }
+    
+    .btn-projects button:last-child {
+        margin-right: 0;
+    }
+    .btn-projects {
+        justify-content: center;
+    }
+    .project button:hover{
+        background-color: var(--accent-copper);
+        color: var(--bg-industrial);
+    }
+    .btn-github button:hover{
+        background-color: var(--accent-copper);
+    }
+    .btn-github button:hover .logo-button{
+        fill: var(--bg-industrial);
+    }
+    .section-form button:hover{
+        background-color: var(--accent-copper);
+        color: var(--bg-industrial);
+    }
+}
