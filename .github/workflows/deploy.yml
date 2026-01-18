@@ -20,4 +20,4 @@ jobs:
           username: ${{ secrets.USERNAMEP }}
           password: ${{ secrets.PASSWORDP }}
           local-dir: ./
-          server-dir: /public_html
+          server-dir: /public_html/
