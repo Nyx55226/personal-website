@@ -1,8 +1,9 @@
 DirectoryIndex index.php
 
 ErrorDocument 404 /pageerror/PageNotFound.html
-
+ErrorDocument 403 /pageerror/PageNotFound.html
 ErrorDocument 500 /pageerror/errore.html
+
 
 <Files ".env">
     Require all denied
