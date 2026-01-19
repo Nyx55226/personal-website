@@ -71,7 +71,7 @@ body {
 
 /* --- ABOUT ME --- */
 .about-me {
-    max-width: 100%;
+    max-width:calc(100%-2rem);
     text-align: center;
 }
 
