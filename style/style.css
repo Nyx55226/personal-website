@@ -93,6 +93,11 @@ body {
     display: inline-block;
 }
 
+.about-me p{
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
 /* --- SEZIONE LINGUAGGI --- */
 .skills-section {
     width: 100%;
@@ -397,7 +402,7 @@ body {
 }
 .section-form h2{
     margin-bottom: 20px;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--accent-copper);
 }
 .section-form form{
@@ -524,7 +529,7 @@ body {
 }
 
 /* --- media --- */
-@media (min-width: 1500px) {
+@media (min-width: 871px) {
     .hero-section {
         flex-direction: row;
         align-items: center;

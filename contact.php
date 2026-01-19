@@ -5,7 +5,13 @@
         $_SESSION["SC"]=bin2hex(random_bytes(32));
     }
 
-    $conn= new mysqli("31.11.38.20","Sql1911704","Ferrara07@","Sql1911704_1");
+    $env= parse_ini_file(__DIR__ . '/.env');
+
+    define('DB_HOST', $env['Host']);
+    define('DB_NAME', $env['dbName']);
+    define('DB_USER', $env['UserName']);
+    define('DB_PASS', $env['Password']);
+    $conn= new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
     $str_="SELECT view from views where id_page='contact'";
     $res=$conn->query($str_);
     if($res->num_rows>0){
@@ -19,7 +25,7 @@
 <html>
     <head>
         <title data-key="title.title_contact"></title>
-        <meta name="viewport" content="width=device-width, initial-scale=0.80">
+        <meta name="viewport" content="width=device-width, initial-scale=0.90">
         <link rel="icon" href="img/global/icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

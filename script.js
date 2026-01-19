@@ -261,10 +261,10 @@
                 textarea.value="";
                 characters.textContent="";
                 cont.style.display="none"
-                showMessage(translations[lang].errors.successsendemail);
-            }else if(r==="emptyField") showMessage(translations[lang].errors.emptyField);
-            else if(r==="textshort") showMessage(translations[lang].errors.textshort);
-            else if(r==="emailnotvalid") showMessage(translations[lang].errors.emailnotvalid);
-        }catch(res) { showMessage(translations[lang].errors.generalerror);}
+                showMessage(getNested(translations[localLangue],"errors.successsendemail"));
+            }else if(r==="emptyField") showMessage(getNested(translations[localLangue],"errors.emptyField"));
+            else if(r==="textshort") showMessage(getNested(translations[localLangue],"errors.textshort"));
+            else if(r==="emailnotvalid") showMessage(getNested(translations[localLangue],"errors.emailnotvalid"));
+        }catch(res) { showMessage(getNested(translations[localLangue],"errors.generalerror"))}
     });
 

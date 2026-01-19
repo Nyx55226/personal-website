@@ -1,6 +1,11 @@
 <?php
-    
-    $conn= new mysqli("31.11.38.20","Sql1911704","Ferrara07@","Sql1911704_1");
+    $env= parse_ini_file(__DIR__ . '/.env');
+
+    define('DB_HOST', $env['Host']);
+    define('DB_NAME', $env['dbName']);
+    define('DB_USER', $env['UserName']);
+    define('DB_PASS', $env['Password']);
+    $conn= new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
     $str_="SELECT view from views where id_page='index'";
     $res=$conn->query($str_);
     if($res->num_rows>0){
@@ -15,7 +20,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=0.90">
         <title data-key="title.title_home"></title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,8 +38,10 @@
             </div>
             <div>
                 <button class="button top-btn" id="contact">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M3 12 L12 3 L21 12" /> <path d="M5 12 V21 H19 V12" /> <rect x="10" y="16" width="4" height="5" />
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" width="20" height="20" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="5" width="20" height="14" rx="2"/>
+                        <path d="M2 7l10 6 10-6"/> <path d="M7 12h3"/> <path d="M7 15h6"/>
                     </svg>
                     <span data-key="contact"></span>
                 </button>

@@ -7,7 +7,13 @@
     require 'PHPMailer/src/PHPMailer.php';
     require 'PHPMailer/src/SMTP.php';
 
-    $conn= new mysqli("31.11.38.20","Sql1911704","Ferrara07@","Sql1911704_1");
+    $env= parse_ini_file(__DIR__ . '/.env');
+
+    define('DB_HOST', $env['Host']);
+    define('DB_NAME', $env['dbName']);
+    define('DB_USER', $env['UserName']);
+    define('DB_PASS', $env['Password']);
+    $conn= new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
     
 
     if(!hash_equals($_SESSION['SC'], $_POST['SC'])) exit();
