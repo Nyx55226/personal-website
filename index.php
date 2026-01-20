@@ -75,15 +75,15 @@
                 <h2 data-key="skills"></h2>
                 <div class="tech-logos">
                     <div class="logo-item">
-                        <img src="img/icon/cpp.png">
+                        <img src="img/icon/c++.png">
                         <span>C++</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/csharp.png">
+                        <img src="img/icon/c-sharp.png">
                         <span>C#</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/javs.png">
+                        <img src="img/icon/java.png">
                         <span>Java</span>
                     </div>
                     <div class="logo-item">
@@ -95,11 +95,11 @@
                         <span>Python</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/sql.png">
-                        <span>SQL</span>
+                        <img src="img/icon/mysql.png">
+                        <span>MySQL</span>
                     </div>
                     <!-- <div class="logo-item">
-                        <img src="img/icon/UR.png">
+                        <img src="img/icon/Unreal.png">
                         <span>Unreal Engine</span>
                     </div> -->
                     <div class="logo-item">
@@ -111,21 +111,29 @@
                         <span>HTML</span>
                     </div>
                     <div class="logo-item">
+                        <img src="img/icon/css.png">
+                        <span>CSS</span>
+                    </div>
+                    <div class="logo-item">
                         <img src="img/icon/js.png">
                         <span>Java Script</span>
                     </div>
                     <div class="logo-item">
                         <img src="img/icon/dart.png">
-                        <span>Dart | Flutter</span>
+                        <span>Dart</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/icon/flutter.png">
+                        <span>Flutter</span>
                     </div>
                     <div class="logo-item">
                         <img src="img/icon/firebase.png">
                         <span>Firebase</span>
                     </div>
-                    <div class="logo-item">
+                    <!-- <div class="logo-item">
                         <img src="img/icon/laravel.png">
                         <span>Laravel</span>
-                    </div>
+                    </div> -->
                     <!-- <div class="logo-item">
                         <img src="img/icon/blender.png">
                         <span>Blender</span>
