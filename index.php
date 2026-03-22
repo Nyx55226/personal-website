@@ -1,11 +1,6 @@
 <?php
-    $env= parse_ini_file(__DIR__ . '/.env');
-
-    define('DB_HOST', $env['Host']);
-    define('DB_NAME', $env['dbName']);
-    define('DB_USER', $env['UserName']);
-    define('DB_PASS', $env['Password']);
-    $conn= new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+    require_once('config.php');
+    
     $str_="SELECT view from views where id_page='index'";
     $res=$conn->query($str_);
     if($res->num_rows>0){
@@ -129,6 +124,10 @@
                     <div class="logo-item">
                         <img src="img/icon/firebase.png">
                         <span>Firebase</span>
+                    </div>
+                    <div class="logo-item">
+                        <img src="img/icon/unity.png">
+                        <span>Unity</span>
                     </div>
                     <!-- <div class="logo-item">
                         <img src="img/icon/laravel.png">

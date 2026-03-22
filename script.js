@@ -103,6 +103,10 @@
         window.open("https://github.com/Nyx55226","_blank");
     });
 
+    const button_flappyBird=document.getElementById('buttonRepositoryFlappyBird');
+    if(button_flappyBird) button_flappyBird.addEventListener("click",()=>{
+        window.open("https://github.com/Nyx55226/Flappy-Bird.git");
+    });
 
     const projects = document.querySelectorAll('.project');
     const btn_reset=document.getElementById('btn-reset');
@@ -112,6 +116,7 @@
     const btn_cpp=document.getElementById('btn-C++');
     const btn_flutter=document.getElementById('btn-flutter');
     const btn_laravel=document.getElementById('btn-laravel');
+    const btn_unity=document.getElementById('btn-unity');
     let linguaggi_scelti=[];
 
     function choice_l(){
@@ -178,6 +183,17 @@
         }else{
             btn_cpp.classList.remove('active');
             linguaggi_scelti.splice(linguaggi_scelti.indexOf("cpp"),1);
+        }
+        choice_l();
+    });
+    if(projects && btn_unity)
+        btn_unity.addEventListener('click',()=>{
+        if(!btn_unity.classList.contains('active')){
+            btn_unity.classList.add('active');
+            linguaggi_scelti.push("unity");
+        }else{
+            btn_unity.classList.remove('active');
+            linguaggi_scelti.splice(linguaggi_scelti.indexOf("unity"),1);
         }
         choice_l();
     });
@@ -267,4 +283,19 @@
             else if(r==="emailnotvalid") showMessage(getNested(translations[localLangue],"errors.emailnotvalid"));
         }catch(res) { showMessage(getNested(translations[localLangue],"errors.generalerror"))}
     });
+
+
+
+
+    const downloadfileProva=document.getElementById('downloadfileProva');
+    const popupDownload=document.getElementById('popupDownload');
+    if(downloadfileProva) downloadfileProva.addEventListener('click',()=>{
+        popupDownload.style.display="block";
+    });
+
+    window.addEventListener('click', (event) => {
+    if (popupDownload.style.display === "block" && !popupDownload.contains(event.target) && event.target !== downloadfileProva) {
+        popupDownload.style.display = "none";
+    }
+});
 

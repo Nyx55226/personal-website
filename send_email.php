@@ -45,10 +45,10 @@
         $email->Body=$body_;
         $email->send();
         unset($_SESSION["SC"]);
-
-        $str_="INSERT INTO email (email,subject,body,data,time) values ('$email_','$subject_','$body_','$date','$time')";
-        $conn->query($str_);
         
+        $str_=$conn->prepare("INSERT INTO email (email,subject,body,data,time) values (?,?,?,?,?)");
+        $str_->bind_param("sssii",$email_,$subject_,$body_,$date,$time);
+        $str_->execute();
         echo "ok";
     }catch(Exception){}
 

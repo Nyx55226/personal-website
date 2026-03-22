@@ -364,6 +364,12 @@ body {
     border: 2px solid var(--accent-copper);
     cursor: pointer;
 }
+.button-project{
+    display: flex;
+    flex-direction:row;
+    width: 90%;
+    gap:5%;
+}
 
 .btn-github{
     position: relative;
@@ -527,6 +533,61 @@ body {
     color: var(--bg-industrial);
 }
 
+.popupDownload{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: auto;
+    background-color: var(--bg-industrial);
+    border: 2px solid var(--accent-copper);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--accent-copper);
+}
+.popupDownload h2{
+    text-align: center;
+    color: var(--accent-copper);
+    margin-top: 10px;
+}
+.popupDownload div{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popupDownload button{
+    width: 90%;
+    height: 60px;
+    margin-bottom: 25px;
+    background-color: var(--bg-industrial);
+    color: var(--text-silver);
+    border: 2px solid var(--accent-copper);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    
+}
+.popupDownload button:hover{
+    background-color: var(--accent-copper); 
+}
+.popupDownload button:hover .link{
+    color: var(--bg-industrial);
+}
+.popupDownload a{
+    text-decoration: none;
+    color: var(--text-silver);
+    cursor:inherit;
+}
+.popupDownload p{
+    margin:5%;
+    color: var(--text-silver);
+    font-size: 1rem;
+    text-align: center;
+}
 /* --- media --- */
 @media (min-width: 871px) {
     .hero-section {

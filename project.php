@@ -1,12 +1,7 @@
 <?php
 
-    $env= parse_ini_file(__DIR__ . '/.env');
-
-    define('DB_HOST', $env['Host']);
-    define('DB_NAME', $env['dbName']);
-    define('DB_USER', $env['UserName']);
-    define('DB_PASS', $env['Password']);
-    $conn= new mysqli(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+    require_once('config.php');
+    
     $str_="SELECT view from views where id_page='project'";
     $res=$conn->query($str_);
     if($res->num_rows>0){
@@ -77,6 +72,9 @@
                     <button class="filter-btn" id="btn-flutter">
                         <span>Flutter</span>
                     </button>
+                    <button class="filter-btn" id="btn-unity">
+                        <span>Unity</span>
+                    </button>
                     <!-- <button class="filter-btn" id="btn-laravel">
                         <span>Laravel</span>
                     </button> -->
@@ -132,6 +130,25 @@
                         <h3><span data-key="LanguageUsed"></span>HTML/PHP</h3>
                         <button data-key="buttonRepository" id="buttonRepositoryPersonalP"></button> 
                     </div>
+                    <div class="project" data-type="unity">
+                        <h4>Flappy Bird in Unity</h4>
+                        <img src="img/lavori/Flappy.png" style="height: 300px;">
+                        <p data-key="projectJobs.flappyBird"></p>
+                        <h3><span data-key="LanguageUsed"></span>Unity</h3>
+                        <div class="button-project">
+                            <button data-key="buttonRepository" id="buttonRepositoryFlappyBird"></button>
+                            <button data-key="buttondownload" id="downloadfileProva"></button> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="popupDownload" style="display: none;" id="popupDownload">
+                <h2>Download</h2>
+                <p data-key="downloadsubtitles"></p>
+                <div>
+                    <button><a href="file/Flappy Bird.apk" download class="link">Android</a></button>
                 </div>
             </section>
         </main>

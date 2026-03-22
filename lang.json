@@ -25,8 +25,10 @@
             "radice":"Progetto web realizzato come calendario dell’avvento digitale. Il sito permette di scoprire ogni giorno nuove creazioni natalizie, offrendo un’esperienza dinamica e coinvolgente. L’architettura si basa su PHP e MySQL, con gestione completa degli account utente, autenticazione tramite login istituzionale, recupero password sicuro, generazione e verifica di codici OTP, e controllo dell’accesso ai contenuti giornalieri. Inoltre, il sito integra un sistema di like per interagire con le creazioni, visualizzare i preferiti e monitorare la popolarità dei contributi. L’interfaccia è progettata per essere intuitiva e responsiva, con un calendario digitale che sblocca i contenuti giorno per giorno, garantendo sia sicurezza che engagement degli utenti.",
             "battaglia":"Progetto sviluppato interamente in C++, che implementa il classico gioco della Battaglia Navale. Il programma permette all’utente di sfidare la CPU, che posiziona casualmente navi di lunghezza diversa su una griglia 10x10. L’obiettivo è indovinare le posizioni delle navi nel minor numero di tentativi possibile. Il gioco gestisce in tempo reale i colpi, segnala acqua e navi colpite, aggiorna il contatore delle navi rimanenti e impedisce l’inserimento di coordinate già utilizzate, offrendo un’esperienza di gioco completa in console.",
             "study_swap":"StudySwap è una piattaforma pensata per favorire la collaborazione tra studenti, permettendo lo scambio di appunti, libri e ripetizioni tramite una moneta interna dell’app, basata sulla condivisione e sulla reputazione. Il progetto è stato sviluppato in collaborazione con altri due ragazzi.",
-            "portafolio":"Sito web personale realizzato interamente da zero usando HTML, CSS, JavaScript e JSON per la gestione multilingua. Ho progettato il layout, implementato animazioni e interattività, e ottimizzato il design responsive, dimostrando completo controllo su funzionalità e aspetto grafico."
+            "portafolio":"Sito web personale realizzato interamente da zero usando HTML, CSS, JavaScript e JSON per la gestione multilingua. Ho progettato il layout, implementato animazioni e interattività, e ottimizzato il design responsive, dimostrando completo controllo su funzionalità e aspetto grafico.",
+            "flappyBird":" Questo gioco è una ricreazione di Flappy Bird realizzata in Unity. Il progetto è stato sviluppato con l’obiettivo di imparare e sperimentare con il motore grafico Unity, esplorando scripting, gestione degli oggetti, collisioni e animazioni. Tutti gli asset utilizzati sono gratuiti e a bassa qualità, selezionati appositamente per concentrarsi sull’apprendimento della logica di gioco piuttosto che sulla grafica. Il progetto rappresenta quindi un esercizio formativo, utile per capire come strutturare un gioco completo e pubblicabile in Unity."
         },
+
         "buttonRepository":"Repository del Progetto",
         "LanguageUsed":"Linguaggio: ",
         "form":{
@@ -53,7 +55,9 @@
             "emailnotvalid":"Email Non Valida",
             "generalerror":"Qualcosa è andato storto. Riprova più tardi",
             "successsendemail":"Email Inviata"
-        }
+        },
+        "buttondownload": "Scarica",
+        "downloadsubtitles":"Scegli il formato da scaricare"
     },
     "en":{
         "title":{
@@ -81,7 +85,8 @@
             "radice":"Web project implemented as a digital advent calendar. The site allows users to discover new Christmas creations every day, providing a dynamic and engaging experience. The architecture is based on PHP and MySQL, with full user account management, authentication via institutional login, secure password recovery, OTP generation and verification, and control over access to daily content. Additionally, the site features a like system to interact with creations, view favorites, and track the popularity of submissions. The interface is designed to be intuitive and responsive, with a digital calendar that unlocks content day by day, ensuring both security and user engagement.",
             "battaglia":"Project fully developed in C++, implementing the classic Battleship game. The program allows the user to challenge the CPU, which randomly places ships of different lengths on a 10x10 grid. The goal is to guess the ship positions using the fewest possible attempts. The game tracks hits and misses in real time, updates the remaining ships counter, and prevents repeated coordinate entries, providing a complete console-based gameplay experience.",
             "study_swap":"StudySwap is a platform designed to encourage collaboration among students, enabling the exchange of notes, books, and tutoring through an in-app currency based on sharing and reputation. The project was developed in collaboration with two other developers.",
-            "portafolio":"A fully custom personal portfolio built from scratch using HTML, CSS, JavaScript, and JSON for multi-language support. Designed and optimized entirely by me, showcasing interactive elements, responsive layout, and complete control over functionality."
+            "portafolio":"A fully custom personal portfolio built from scratch using HTML, CSS, JavaScript, and JSON for multi-language support. Designed and optimized entirely by me, showcasing interactive elements, responsive layout, and complete control over functionality.",
+            "flappyBird": "This game is a recreation of Flappy Bird made in Unity. The project was developed with the goal of learning and experimenting with the Unity engine, exploring scripting, object management, collisions, and animations. All assets used are free and low-quality, selected specifically to focus on learning game logic rather than graphics. Therefore, the project serves as a learning exercise, useful for understanding how to structure a complete and publishable game in Unity."
         },
         "buttonRepository":"Project Repository",
         "LanguageUsed":"Language: ",
@@ -110,6 +115,8 @@
             "emailnotvalid":"Invalid Email",
             "generalerror":"Something went wrong. Please try again later",
             "successsendemail":"Email Sent"
-        }
+        },
+        "buttondownload": "Download",
+        "downloadsubtitles":"Choose the download format"
     }
 }
