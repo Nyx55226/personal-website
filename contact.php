@@ -20,11 +20,11 @@
     <head>
         <title data-key="title.title_contact"></title>
         <meta name="viewport" content="width=device-width, initial-scale=0.90">
-        <link rel="icon" href="img/global/icon.png">
+        <link rel="icon" href="/website/img/global/icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="/website/style/style.css">
         <meta name="SC" content="<?= $_SESSION["SC"] ?>">
     </head>
     <body>
@@ -93,5 +93,5 @@
             </section>
         </main>
     </body>
-    <script src="script.js"></script>
+    <script src="/website/script.js"></script>
 </html>

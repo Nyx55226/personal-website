@@ -20,8 +20,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style/style.css">
-        <link rel="icon" href="img/global/icon.png">
+        <link rel="stylesheet" href="/website/style/style.css">
+        <link rel="icon" href="/website/img/global/icon.png">
     </head>
     <body>
         <div>
@@ -55,7 +55,7 @@
         <main>
             <section class="hero-section">
                 <div class="profile-circle">
-                    <img src="img/global/avatar.png" class="profile-icon">
+                    <img src="/website/img/global/avatar.png" class="profile-icon">
                     </div>
                 <div class="about-me">
                     <h2 data-key="about-me.h2"></h2>
@@ -70,63 +70,63 @@
                 <h2 data-key="skills"></h2>
                 <div class="tech-logos">
                     <div class="logo-item">
-                        <img src="img/icon/c++.png">
+                        <img src="/website/img/icon/c++.png">
                         <span>C++</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/c-sharp.png">
+                        <img src="/website/img/icon/c-sharp.png">
                         <span>C#</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/java.png">
+                        <img src="/website/img/icon/java.png">
                         <span>Java</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/go.png">
+                        <img src="/website/img/icon/go.png">
                         <span>GO</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/python.png">
+                        <img src="/website/img/icon/python.png">
                         <span>Python</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/mysql.png">
+                        <img src="/website/img/icon/mysql.png">
                         <span>MySQL</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/Unreal.png">
+                        <img src="/website/img/icon/Unreal.png">
                         <span>Unreal Engine</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/php.png">
+                        <img src="/website/img/icon/php.png">
                         <span>PHP</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/html.png">
+                        <img src="/website/img/icon/html.png">
                         <span>HTML</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/css.png">
+                        <img src="/website/img/icon/css.png">
                         <span>CSS</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/js.png">
+                        <img src="/website/img/icon/js.png">
                         <span>Java Script</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/dart.png">
+                        <img src="/website/img/icon/dart.png">
                         <span>Dart</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/flutter.png">
+                        <img src="/website/img/icon/flutter.png">
                         <span>Flutter</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/firebase.png">
+                        <img src="/website/img/icon/firebase.png">
                         <span>Firebase</span>
                     </div>
                     <div class="logo-item">
-                        <img src="img/icon/unity.png">
+                        <img src="/website/img/icon/unity.png">
                         <span>Unity</span>
                     </div>
                     <!-- <div class="logo-item">
@@ -141,5 +141,5 @@
             </section>
         </main>
     </body>
-    <script src="script.js"></script>
+    <script src="/website/script.js"></script>
 </html>

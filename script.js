@@ -3,7 +3,7 @@
     let localLangue = localStorage.getItem('lang') || (navigator.language || navigator.userLanguage).slice(0,2);
     if (!["it","en"].includes(localLangue)) localLangue = "en";
     let translations = {};
-        fetch('lang.json')
+        fetch('/website/lang.json')
             .then(res => res.json())
             .then(data => {
                 translations = data;
@@ -14,11 +14,11 @@
     
     function selectImgLanguage(){
         if(select.value==='it') {
-            select.style.backgroundImage= "url('img/flag/it.png')";
+            select.style.backgroundImage= "url('/website/img/flag/it.png')";
             setLanguage('it');
         }
         else if(select.value==='en') {
-            select.style.backgroundImage="url('img/flag/en.png')";
+            select.style.backgroundImage="url('/website/img/flag/en.png')";
             setLanguage('en');
         }
     }
@@ -46,22 +46,22 @@
 
     const contact=document.getElementById('contact');
     if(contact) contact.addEventListener('click', ()=>{
-        window.location.href="contact.php";
+        window.location.href = "/website/contact.php";
     });
     
     const project= document.getElementById('project');
     if(project) project.addEventListener('click',()=>{
-        window.location.href="project.php";
+        window.location.href = "/website/project.php";
     });
 
     const home=document.getElementById('home');
     if(home) home.addEventListener('click', ()=>{
-        window.location.href="/";
+        window.location.href = "/website";
     });
 
     const btn_error=document.getElementById('btn-error');
     if(btn_error) btn_error.addEventListener('click',()=>{
-        window.location.href="/";
+        window.location.href = "/website";
     });
     const buttonRepositoryMR=document.getElementById('buttonRepositoryMR');
     if(buttonRepositoryMR) buttonRepositoryMR.addEventListener('click',()=>{

@@ -16,11 +16,11 @@
     <head>
         <title data-key="title.title_project"></title>
         <meta name="viewport" content="width=device-width, initial-scale=0.90">
-        <link rel="icon" href="img/global/icon.png">
+        <link rel="icon" href="/website/img/global/icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="/website/style/style.css">
     </head>
     <body>
         <div>
@@ -83,56 +83,56 @@
                 <div class="projects-container">
                     <div class="project" data-type="java">
                         <h4>TRIS</h4>
-                        <img src="img/lavori/java_tris.png" style="height: 300px;">
+                        <img src="/website/img/lavori/java_tris.png" style="height: 300px;">
                         <p data-key="projectJobs.tris"></p>
                         <h3><span data-key="LanguageUsed"></span>Java</h3>
                         <button data-key="buttonRepository" id="buttonRepositoryTris"></button> 
                     </div>
                     <div class="project" data-type="html/php">
                         <h4>Radice Christmas Harmony</h4>
-                        <img src="img/lavori/Radice_C_H.png" style="height: 300px;">
+                        <img src="/website/img/lavori/Radice_C_H.png" style="height: 300px;">
                         <p data-key="projectJobs.radice"></p>
                         <h3><span data-key="LanguageUsed"></span>HTML/PHP</h3>
                         <button data-key="buttonRepository" id="buttonRepositoryRadice"></button> 
                     </div>
                     <div class="project" data-type="cpp">
                         <h4>Battaglia Navale</h4>
-                        <img src="img/lavori/battaglia.png" style="height: 300px;">
+                        <img src="/website/img/lavori/battaglia.png" style="height: 300px;">
                         <p data-key="projectJobs.battaglia"></p>
                         <h3><span data-key="LanguageUsed"></span>C++</h3>
                         <button data-key="buttonRepository" id="buttonRepositorybattaglia"></button> 
                     </div>
                     <div class="project" data-type="java">
                         <h4>Magic Research</h4>
-                        <img src="img/lavori/Java_MR.png" style="height: 300px;">
+                        <img src="/website/img/lavori/Java_MR.png" style="height: 300px;">
                         <p data-key="projectJobs.MagicalR"></p>
                         <h3><span data-key="LanguageUsed"></span>Java</h3>
                         <button data-key="buttonRepository" id="buttonRepositoryMR"></button> 
                     </div>
                     <div class="project" data-type="flutter">
                         <h4>Study-Swap</h4>
-                        <img src="img/lavori/study_swap.png" style="height: 300px;">
+                        <img src="/website/img/lavori/study_swap.png" style="height: 300px;">
                         <p data-key="projectJobs.study_swap"></p>
                         <h3><span data-key="LanguageUsed"></span>Flutter && Dart</h3>
                         <button data-key="buttonRepository" id="buttonRepositorystudy-swap"></button> 
                     </div>
                     <div class="project" data-type="java">
                         <h4>Forza 4</h4>
-                        <img src="img/lavori/Java_F4.png" style="height: 300px;">
+                        <img src="/website/img/lavori/Java_F4.png" style="height: 300px;">
                         <p data-key="projectJobs.forza4"></p>
                         <h3><span data-key="LanguageUsed"></span>Java</h3>
                         <button data-key="buttonRepository" id="buttonRepositoryF4"></button> 
                     </div>
                     <div class="project" data-type="html/php">
                         <h4>Personal website</h4>
-                        <img src="img/global/icon.png" style="height: 300px;">
+                        <img src="/website/img/global/icon.png" style="height: 300px;">
                         <p data-key="projectJobs.portafolio"></p>
                         <h3><span data-key="LanguageUsed"></span>HTML/PHP</h3>
                         <button data-key="buttonRepository" id="buttonRepositoryPersonalP"></button> 
                     </div>
                     <div class="project" data-type="unity">
                         <h4>Flappy Bird in Unity</h4>
-                        <img src="img/lavori/Flappy.png" style="height: 300px;">
+                        <img src="/website/img/lavori/Flappy.png" style="height: 300px;">
                         <p data-key="projectJobs.flappyBird"></p>
                         <h3><span data-key="LanguageUsed"></span>Unity</h3>
                         <div class="button-project">
