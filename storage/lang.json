@@ -1,0 +1,58 @@
+{
+    "it":{
+        "title":{
+            "title_home":"Emanuele Ferrara | sviluppatore",
+            "title_contact":"Emanuele Ferrara | contatti",
+            "title_project":"Emanuele Ferrara | Progetti"
+        },
+        "contact":"Contatti",
+        "contactsubtitle": "Aperto a collaborazioni, progetti e confronti tecnici.",
+        "sendemail":"Hai un'idea o una proposta? Inviami un'email.",
+        "project":"Progetti",
+        "project_2":"I Miei Progetti",
+        "about-me":{
+            "h2":"Ciao, sono Emanuele Ferrara",
+            "p":"Mi chiamo Emanuele Ferrara e sono uno studente di Informatica con una forte passione per la programmazione e per lo sviluppo di videogiochi., Fin da giovane mi interesso all’informatica non solo come disciplina teorica, ma come strumento per progettare sistemi complessi, efficienti e orientati alle prestazioni. I videogiochi rappresentano per me un punto di incontro tra software engineering, logica, design e tecnologia, ed è in questo ambito che concentro gran parte del mio studio e della mia pratica. Affronto l’apprendimento con un approccio basato sulla dedizione costante, sull’approfondimento tecnico e sulla sperimentazione continua. Il mio percorso è orientato alla crescita a lungo termine come sviluppatore, con l’obiettivo di lavorare su progetti ad alto livello tecnico e di contribuire in modo concreto all’evoluzione dell'informatica."
+        },
+        "skills":"Stack Tecnologico",
+        "descProject":"Questa sezione raccoglie i miei progetti, suddivisi per linguaggio di programmazione. Per ogni lavoro sono disponibili immagini rappresentativi, una breve descrizione e il link al repository GitHub.",
+        "projectJobs":{
+            "MagicalR":"Questo progetto è una demo del gioco Magic Research, sviluppata interamente in Java, con finalità didattiche, con l’obiettivo di studiare e ricreare le meccaniche e la struttura delle prime ore di gioco dell’opera originale.\n\nNota legale: si tratta di un progetto amatoriale a scopo didattico. Tutti i diritti relativi al concept, al gameplay e all’idea originale appartengono agli sviluppatori di Magic Research.",
+            "tris":"Progetto sviluppato interamente in Java, che implementa il classico gioco del Tris (tic-tac-toe) con interfaccia grafica. Il programma permette a due giocatori di sfidarsi in una partita, mostrando una griglia 3x3 interattiva e aggiornata in tempo reale dopo ogni mossa.",
+            "radice":"Progetto web sviluppato in collaborazione con la scuola come calendario dell’avvento digitale. La piattaforma consente agli utenti di scoprire ogni giorno nuove creazioni natalizie. Include gestione degli account, autenticazione sicura, recupero password, verifica OTP e sistema di like per interagire con i contenuti. L’interfaccia responsive è progettata per garantire sicurezza e massimizzare l’engagement degli utenti",
+            "study_swap":"StudySwap è una piattaforma pensata per favorire la collaborazione tra studenti, permettendo lo scambio di appunti, libri e ripetizioni tramite una moneta interna dell’app, basata sulla condivisione e sulla reputazione. Il progetto è stato sviluppato in collaborazione con altri due ragazzi.",
+            "portafolio":"Sito web personale realizzato interamente da zero usando HTML, CSS, JavaScript e JSON per la gestione multilingua. Ho progettato il layout, implementato animazioni e interattività, e ottimizzato il design responsive, dimostrando completo controllo su funzionalità e aspetto grafico.",
+            "flappyBird":"Questo gioco è una ricreazione di Flappy Bird realizzata in Unity. Il progetto è stato sviluppato con l’obiettivo di imparare e sperimentare con il motore grafico Unity. Tutti gli asset utilizzati sono gratuiti e a bassa qualità, selezionati appositamente per concentrarsi sull’apprendimento della logica di gioco piuttosto che sulla grafica",
+            "basegame":"Un Social per i videogiocatori dove possono gestire la propria libreria, consultare schede tecniche dei titoli, trovare link diretti all'acquisto, interagire con la community attraverso forum o Post (beta)"
+        },
+        "LanguageUsed":"Linguaggio: "
+    },
+    "en":{
+        "title":{
+            "title_home":"Emanuele Ferrara | Developer",
+            "title_contact":"Emanuele Ferrara | Contact me",
+            "title_project":"Emanuele Ferrara | Project"
+        },
+        "contact":"Contact",
+        "contactsubtitle": "Open to collaborations, projects, and tech talks.",
+        "sendemail":"Have an idea or a proposal? Send me an email.",
+        "project":"Project",
+        "project_2":"My Project",
+        "about-me":{
+            "h2":"Hi, I'm Emanuele Ferrara",
+            "p":"My name is Emanuele Ferrara and i am a Computer Science student with a strong passion for programming and game development. From a young age, I have been interested in computer science not only as a theoretical discipline, but as a tool for designing complex, efficient, and performance-oriented systems. Video games represent for me a meeting point between software engineering, logic, design, and technology, and this is the field on which I focus most of my study and practice. I approach learning with a mindset based on constant dedication, deep technical exploration, and continuous experimentation. My path is oriented toward long-term growth as a developer, with the goal of working on highly technical projects and making a concrete contribution to the evolution of Information Technology."
+        },
+        "skills":"Technology Stack",
+        "descProject":"This section showcases my projects, organized by programming language. Each project includes representative images, a brief description, and a link to the corresponding GitHub repository.",
+        "projectJobs":{
+            "MagicalR":"This project is a demo of the game Magic Research, developed entirely in Java for educational purposes, with the goal of studying and recreating the mechanics and structural design of the game’s early hours.\n\nLegal notice: this is an amateur project created for educational purposes. All rights related to the original concept, gameplay, and idea belong to the developers of Magic Research.",
+            "tris":"Project developed entirely in Java, implementing the classic Tic-Tac-Toe game with a graphical interface. The program allows two players to compete in a match, displaying an interactive 3x3 grid that updates in real time after each move.",
+            "radice":"Web project developed in collaboration with my school as a digital advent calendar. The platform allows users to discover new Christmas-themed creations every day. It includes user account management, secure authentication, password recovery, OTP verification, and a like system to interact with content. The responsive interface is designed to ensure security and maximize user engagement",
+            "study_swap":"StudySwap is a platform designed to encourage collaboration among students, enabling the exchange of notes, books, and tutoring through an in-app currency based on sharing and reputation. The project was developed in collaboration with two other developers.",
+            "portafolio":"A fully custom personal portfolio built from scratch using HTML, CSS, JavaScript, and JSON for multi-language support. Designed and optimized entirely by me, showcasing interactive elements, responsive layout, and complete control over functionality.",
+            "flappyBird": "This game is a recreation of Flappy Bird developed in Unity. The project was created with the goal of learning and experimenting with the Unity game engine. All assets used are free and of low quality, chosen specifically to focus on learning gameplay logic rather than graphics",
+            "basegame":"A social platform for gamers where they can manage their own library, browse technical details of games, find direct purchase links, and interact with the community through forums or posts (beta)"
+        },
+        "LanguageUsed":"Language: "
+    }
+}
