@@ -23,7 +23,8 @@
             "study_swap":"StudySwap è una piattaforma pensata per favorire la collaborazione tra studenti, permettendo lo scambio di appunti, libri e ripetizioni tramite una moneta interna dell’app, basata sulla condivisione e sulla reputazione. Il progetto è stato sviluppato in collaborazione con altri due ragazzi.",
             "portafolio":"Sito web personale realizzato interamente da zero usando HTML, CSS, JavaScript e JSON per la gestione multilingua. Ho progettato il layout, implementato animazioni e interattività, e ottimizzato il design responsive, dimostrando completo controllo su funzionalità e aspetto grafico.",
             "flappyBird":"Questo gioco è una ricreazione di Flappy Bird realizzata in Unity. Il progetto è stato sviluppato con l’obiettivo di imparare e sperimentare con il motore grafico Unity. Tutti gli asset utilizzati sono gratuiti e a bassa qualità, selezionati appositamente per concentrarsi sull’apprendimento della logica di gioco piuttosto che sulla grafica",
-            "basegame":"Un Social per i videogiocatori dove possono gestire la propria libreria, consultare schede tecniche dei titoli, trovare link diretti all'acquisto, interagire con la community attraverso forum o Post (beta)"
+            "basegame":"Un Social per i videogiocatori dove possono gestire la propria libreria, consultare schede tecniche dei titoli, trovare link diretti all'acquisto, interagire con la community attraverso forum o Post (beta)",
+            "dino":"Corri il più a lungo possibile evitando cactus e ostacoli in un frenetico endless runner 2D. Accumula punti, supera il tuo record personale e metti alla prova i tuoi riflessi mentre la velocità aumenta progressivamente, rendendo ogni partita sempre più impegnativa"
         },
         "LanguageUsed":"Linguaggio: "
     },
@@ -51,7 +52,8 @@
             "study_swap":"StudySwap is a platform designed to encourage collaboration among students, enabling the exchange of notes, books, and tutoring through an in-app currency based on sharing and reputation. The project was developed in collaboration with two other developers.",
             "portafolio":"A fully custom personal portfolio built from scratch using HTML, CSS, JavaScript, and JSON for multi-language support. Designed and optimized entirely by me, showcasing interactive elements, responsive layout, and complete control over functionality.",
             "flappyBird": "This game is a recreation of Flappy Bird developed in Unity. The project was created with the goal of learning and experimenting with the Unity game engine. All assets used are free and of low quality, chosen specifically to focus on learning gameplay logic rather than graphics",
-            "basegame":"A social platform for gamers where they can manage their own library, browse technical details of games, find direct purchase links, and interact with the community through forums or posts (beta)"
+            "basegame":"A social platform for gamers where they can manage their own library, browse technical details of games, find direct purchase links, and interact with the community through forums or posts (beta)",
+            "dino":"Run as long as you can while avoiding cacti and obstacles in a fast-paced 2D endless runner. Earn points, beat your personal high score, and put your reflexes to the test as the speed gradually increases, making each run more challenging than the last"
         },
         "LanguageUsed":"Language: "
     }
