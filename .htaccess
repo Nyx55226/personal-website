@@ -1,0 +1,12 @@
+# -----------------------------------------------
+# Serve /portfolio/ dalla root senza cambiare URL
+# -----------------------------------------------
+
+RewriteEngine On
+
+# Se il file o la cartella esiste, lascia passare
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite silenzioso: root → portfolio/
+RewriteRule ^$ /portfolio/index.html [L]
