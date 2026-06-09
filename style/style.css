@@ -12,6 +12,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
     color: var(--text-silver);
     line-height: 1.7;
     overflow-x: hidden;
+    margin-bottom: 50px;
     
 }
 main{
@@ -416,6 +418,22 @@ main{
     color: #e0e0e0;
     opacity: 0.9;
 }
+.footer{
+    background-color: var(--bg-industrial);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer h1{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 /* --- media --- */
 @media (min-width: 871px) {
     .nav_button{
@@ -492,5 +510,10 @@ main{
     }
     .credits{
         text-align: start;
+    }
+    .footer h1{
+        font-size: 35;
+        margin-left: 30px;
+        margin-top: 15px;
     }
 }
